@@ -104,8 +104,8 @@ public class Start {
 
         // ****** find from table
         WebElement poland = wd.findElement(By.xpath("//table/tbody/tr[4]/td[1]"));
-//        https://www.guru99.com/selenium-webtable.html
-//        String innerText = poland.getText();
-//        System.out.println(innerText);
+
+//        String res = poland.getText();
+//        System.out.println(res);
     }
 }
