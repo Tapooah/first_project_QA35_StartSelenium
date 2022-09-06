@@ -103,7 +103,9 @@ public class Start {
         WebElement send = wd.findElement(By.className("btn"));
 
         // ****** find from table
-        WebElement poland = wd.findElement(By.xpath("//table/tbody/tr[4]/td[1]"));
+//        WebElement poland = wd.findElement(By.xpath("//table/tbody/tr[4]/td[1]"));
+        List<WebElement> list = wd.findElements(By.tagName("td"));
+        WebElement poland = list.get(9);
 
 //        String res = poland.getText();
 //        System.out.println(res);
